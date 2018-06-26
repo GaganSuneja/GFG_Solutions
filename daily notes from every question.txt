@@ -1,0 +1,10 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ DAILY NOTES FROM EACH PROBLEM
+
+26-06-2018 relative Sorting
+=======> We can delete all occurrences all a element say 'a' by replacing them with next unmatched element and finally deleting the elements from last 'a' to end.
+=======> time complexity here is reduced in comparison to shifting of elements as O(n^2) is reduced to O(n);
+
+=======> vector remove does the job by eleminating all replacing and then by using erase .
+
+=======>ex v.erase(remove(v.begin(),v.end(),"n"),v.end());
+

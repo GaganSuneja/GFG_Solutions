@@ -1,5 +1,11 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ DAILY NOTES FROM EACH PROBLEM
 
+
+XX-06-2018 Find Unique element
+========> XOR operator of 2 elements gives us the binary difference of the two ... XOR of 2 same elements is 0;
+========> use XOR is for loop over each pair if the element .
+
+
 26-06-2018 relative Sorting
 =======> We can delete all occurrences all a element say 'a' by replacing them with next unmatched element and finally deleting the elements from last 'a' to end.
 =======> time complexity here is reduced in comparison to shifting of elements as O(n^2) is reduced to O(n);

@@ -1,21 +1,19 @@
 [main] a 1000 (0) exception: trapped!
-[main] a 1000 (0) exception: code 0xC0000005 at 0x41572A
-[main] a 1000 (0) exception: ax 0xA034000 bx 0xA032928 cx 0x0 dx 0x246FE60
-[main] a 1000 (0) exception: si 0xA030CE0 di 0x246FE74 bp 0x246FDFC sp 0x246FDFC
-[main] a 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] a 1000 (0) exception: code 0xC0000005 at 0x401137
+[main] a 1000 (0) exception: ax 0x91BFC7C bx 0x246FF1F cx 0x246FF1F dx 0x246FD64
+[main] a 1000 (0) exception: si 0x0 di 0x401000 bp 0x246FF04 sp 0x246FD40
+[main] a 1000 (1) exception: exception is: STATUS_ACCESS_VIOLATION
 [main] a 1000 (0) stack: Stack trace:
-[main] a 1000 (0) stack: frame 0: sp = 0x246F808, pc = 0x6100A2C3
-[main] a 1000 (0) stack: frame 1: sp = 0x246F844, pc = 0x77B0FF41
-[main] a 1000 (0) stack: frame 2: sp = 0x246F868, pc = 0x77B0FF13
-[main] a 1000 (0) stack: frame 3: sp = 0x246F930, pc = 0x77B1068F
-[main] a 1000 (0) stack: frame 4: sp = 0x246FDFC, pc = 0x4156FA
-[main] a 1000 (0) stack: frame 5: sp = 0x246FE24, pc = 0x4012E5
-[main] a 1000 (0) stack: frame 6: sp = 0x246FF04, pc = 0x61004402
-[main] a 1000 (0) stack: frame 7: sp = 0x246FF48, pc = 0x61004420
-[main] a 1000 (0) stack: frame 8: sp = 0x246FF54, pc = 0x41342E
-[main] a 1000 (0) stack: frame 9: sp = 0x246FF64, pc = 0x40103A
-[main] a 1000 (0) stack: frame 10: sp = 0x246FF80, pc = 0x75597C04
-[main] a 1000 (0) stack: frame 11: sp = 0x246FF94, pc = 0x77B2AD8F
-[main] a 1000 (0) stack: frame 12: sp = 0x246FFDC, pc = 0x77B2AD5A
-[main] a 1000 (0) stack: frame 13: sp = 0x246FFEC, pc = 0x0
-[main] a 1000 (1) stack: End of stack trace
+[main] a 1000 (0) stack: frame 0: sp = 0x246F748, pc = 0x6100A2C3
+[main] a 1000 (0) stack: frame 1: sp = 0x246F784, pc = 0x7743FF41
+[main] a 1000 (0) stack: frame 2: sp = 0x246F7A8, pc = 0x7743FF13
+[main] a 1000 (0) stack: frame 3: sp = 0x246F874, pc = 0x7744068F
+[main] a 1000 (0) stack: frame 4: sp = 0x246FF04, pc = 0x61004402
+[main] a 1000 (0) stack: frame 5: sp = 0x246FF48, pc = 0x61004420
+[main] a 1000 (0) stack: frame 6: sp = 0x246FF54, pc = 0x41336E
+[main] a 1000 (0) stack: frame 7: sp = 0x246FF64, pc = 0x40103A
+[main] a 1000 (0) stack: frame 8: sp = 0x246FF80, pc = 0x76DB7C04
+[main] a 1000 (0) stack: frame 9: sp = 0x246FF94, pc = 0x7745AD8F
+[main] a 1000 (0) stack: frame 10: sp = 0x246FFDC, pc = 0x7745AD5A
+[main] a 1000 (0) stack: frame 11: sp = 0x246FFEC, pc = 0x0
+[main] a 1000 (0) stack: End of stack trace

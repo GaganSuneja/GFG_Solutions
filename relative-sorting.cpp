@@ -43,19 +43,19 @@ int main(){
 
         cout<<"iterator after remove"<<*it;   
 
-        // for(int i = 0;i<noOfElem2 ; i++){
-        //     for(it = in1.begin();it!=in1.end();it++){
-        //         if(*it == in2[i])   in1.erase(it);
-        //     }
-        // }
+        for(int i = 0;i<noOfElem2 ; i++){
+            for(it = in1.begin();it!=in1.end();it++){
+                if(*it == in2[i])   in1.erase(it);
+            }
+        }
 
-        // for(it = in1.begin();it!=in1.end();it++) cout<<*it<<endl;
+        for(it = in1.begin();it!=in1.end();it++) cout<<*it<<endl;
         
-        // sort(in1.begin(),in1.end(),cmp);
+        sort(in1.begin(),in1.end(),cmp);
         
-        // cout<<"after sorting"<<endl;
+        cout<<"after sorting"<<endl;
         
-        // for(it = in1.begin();it!=in1.end();it++) cout<<*it<<endl;
+        for(it = in1.begin();it!=in1.end();it++) cout<<*it<<endl;
 
         --testCases;
     }
@@ -63,11 +63,6 @@ int main(){
     // q1.insert(make_pair(5,10));
     // q1.insert(make_pair(0,0));
     // q1.insert(make_pair(3,30));
-
-
-
-
-
 
     // map<int , int> :: iterator it; 
     // for(it = q1.begin();it!=q1.end();++it) cout<<it->first<<"  value"<<it->second<<endl;

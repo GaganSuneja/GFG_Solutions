@@ -14,3 +14,8 @@ XX-06-2018 Find Unique element
 
 =======>ex v.erase(remove(v.begin(),v.end(),"n"),v.end());
 
+30-06-2018 Reverse words in a given string
+========> cin>>ws clear the stream before getline is used for execution
+========> always clear stream before using getline
+
+========> strtok works for every input char *ptr = strtok(a,".") while(ptr!=NULL) ptr = (NULL,".")
